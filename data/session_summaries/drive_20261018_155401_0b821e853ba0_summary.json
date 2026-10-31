@@ -1,0 +1,54 @@
+{
+    "session_id": "0b821e853ba0",
+    "source_csv": "data\\drive_sessions\\drive_20261018_155401_0b821e853ba0.csv",
+    "start_timestamp_utc": "2026-10-18T15:54:03.080299+00:00",
+    "end_timestamp_utc": "2026-10-18T15:54:47.356463+00:00",
+    "drive_duration_seconds": 44.28,
+    "logged_rows": 123,
+    "face_visible_seconds": 38.48,
+    "no_face_seconds": 6.16,
+    "attentive_seconds": 36.33,
+    "attentive_percent": 94.4,
+    "head_away_seconds": 17.34,
+    "head_away_percent": 45.06,
+    "confirmed_distraction_seconds": 2.16,
+    "confirmed_distraction_percent": 5.6,
+    "distraction_event_count": 1,
+    "drowsy_seconds": 0.0,
+    "drowsy_percent": 0.0,
+    "blink_count": 2,
+    "long_eye_closure_count": 0,
+    "drowsiness_event_count": 0,
+    "mouth_movement_count": 1,
+    "yawn_count": 0,
+    "head_direction_seconds": {
+        "FORWARD": 21.14,
+        "LEFT": 0.0,
+        "RIGHT": 10.16,
+        "UP": 0.0,
+        "DOWN": 7.19
+    },
+    "head_direction_percent": {
+        "FORWARD": 54.94,
+        "LEFT": 0.0,
+        "RIGHT": 26.39,
+        "UP": 0.0,
+        "DOWN": 18.67
+    },
+    "alerts": {
+        "DROWSINESS_ALERT": 0,
+        "DISTRACTION_ALERT": 1,
+        "EARLY_EYE_WARNING": 0,
+        "CRITICAL_DROWSINESS_ALERT": 0,
+        "EARLY_DISTRACTION_WARNING": 0,
+        "CRITICAL_DISTRACTION_ALERT": 0
+    },
+    "total_safety_alerts": 1,
+    "log_reason_counts": {
+        "PERIODIC_SAMPLE": 116,
+        "ALERT_STATE_CHANGE": 3,
+        "IMPORTANT_ALERT": 1,
+        "MOUTH_EVENT": 1,
+        "EYE_EVENT": 2
+    }
+}

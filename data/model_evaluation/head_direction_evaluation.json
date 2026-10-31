@@ -1,0 +1,269 @@
+{
+  "samples": 1322,
+  "feature_count": 36,
+  "classes": [
+    "FORWARD",
+    "LEFT",
+    "RIGHT",
+    "UP",
+    "DOWN"
+  ],
+  "cross_session_accuracy": 0.8596,
+  "cross_session_macro_f1": 0.8415,
+  "cross_session_accuracy_std": 0.0744,
+  "full_dataset_accuracy": 1.0,
+  "confusion_matrix": [
+    [
+      272,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      270,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      273,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      236,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      271
+    ]
+  ],
+  "per_class": {
+    "FORWARD": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 272
+    },
+    "LEFT": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 270
+    },
+    "RIGHT": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 273
+    },
+    "UP": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 236
+    },
+    "DOWN": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 271
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "left_mouth_y",
+      "importance": 0.06713770387914192
+    },
+    {
+      "feature": "chin_z",
+      "importance": 0.06357664577316711
+    },
+    {
+      "feature": "left_mouth_z",
+      "importance": 0.05757143688659525
+    },
+    {
+      "feature": "right_cheek_y",
+      "importance": 0.056552985923444245
+    },
+    {
+      "feature": "right_mouth_z",
+      "importance": 0.05534372490452276
+    },
+    {
+      "feature": "left_eye_inner_x",
+      "importance": 0.05197368158623152
+    },
+    {
+      "feature": "nose_tip_z",
+      "importance": 0.05130233921232163
+    },
+    {
+      "feature": "forehead_z",
+      "importance": 0.04871907800050747
+    },
+    {
+      "feature": "nose_tip_x",
+      "importance": 0.046874813601596156
+    },
+    {
+      "feature": "left_eye_inner_z",
+      "importance": 0.04406533866052261
+    },
+    {
+      "feature": "left_cheek_y",
+      "importance": 0.04271013275677007
+    },
+    {
+      "feature": "right_mouth_x",
+      "importance": 0.03584091530339504
+    },
+    {
+      "feature": "chin_x",
+      "importance": 0.031242074507108315
+    },
+    {
+      "feature": "nose_bridge_x",
+      "importance": 0.03058306590823179
+    },
+    {
+      "feature": "right_cheek_x",
+      "importance": 0.02818713155606232
+    },
+    {
+      "feature": "right_eye_inner_z",
+      "importance": 0.027586559158047586
+    },
+    {
+      "feature": "nose_bridge_z",
+      "importance": 0.02667227163478671
+    },
+    {
+      "feature": "left_mouth_x",
+      "importance": 0.025758472192688
+    },
+    {
+      "feature": "left_cheek_z",
+      "importance": 0.025178308405599696
+    },
+    {
+      "feature": "right_eye_outer_z",
+      "importance": 0.02497911003005009
+    },
+    {
+      "feature": "right_cheek_z",
+      "importance": 0.024943923011824923
+    },
+    {
+      "feature": "chin_y",
+      "importance": 0.023144710846003468
+    },
+    {
+      "feature": "right_mouth_y",
+      "importance": 0.02183885182515252
+    },
+    {
+      "feature": "nose_tip_y",
+      "importance": 0.021440579069371704
+    },
+    {
+      "feature": "left_eye_outer_z",
+      "importance": 0.02056419150859084
+    },
+    {
+      "feature": "left_cheek_x",
+      "importance": 0.014542175207445013
+    },
+    {
+      "feature": "right_eye_inner_x",
+      "importance": 0.014238683273732946
+    },
+    {
+      "feature": "forehead_y",
+      "importance": 0.012476002638026137
+    },
+    {
+      "feature": "nose_bridge_y",
+      "importance": 0.002384721696948967
+    },
+    {
+      "feature": "forehead_x",
+      "importance": 0.0020150515979748375
+    },
+    {
+      "feature": "right_eye_inner_y",
+      "importance": 0.0003794275549649459
+    },
+    {
+      "feature": "left_eye_inner_y",
+      "importance": 0.00017589188917315905
+    },
+    {
+      "feature": "left_eye_outer_x",
+      "importance": 0.0
+    },
+    {
+      "feature": "left_eye_outer_y",
+      "importance": 0.0
+    },
+    {
+      "feature": "right_eye_outer_x",
+      "importance": 0.0
+    },
+    {
+      "feature": "right_eye_outer_y",
+      "importance": 0.0
+    }
+  ],
+  "feature_columns": [
+    "nose_tip_x",
+    "nose_tip_y",
+    "nose_tip_z",
+    "nose_bridge_x",
+    "nose_bridge_y",
+    "nose_bridge_z",
+    "chin_x",
+    "chin_y",
+    "chin_z",
+    "left_eye_outer_x",
+    "left_eye_outer_y",
+    "left_eye_outer_z",
+    "left_eye_inner_x",
+    "left_eye_inner_y",
+    "left_eye_inner_z",
+    "right_eye_inner_x",
+    "right_eye_inner_y",
+    "right_eye_inner_z",
+    "right_eye_outer_x",
+    "right_eye_outer_y",
+    "right_eye_outer_z",
+    "left_cheek_x",
+    "left_cheek_y",
+    "left_cheek_z",
+    "right_cheek_x",
+    "right_cheek_y",
+    "right_cheek_z",
+    "left_mouth_x",
+    "left_mouth_y",
+    "left_mouth_z",
+    "right_mouth_x",
+    "right_mouth_y",
+    "right_mouth_z",
+    "forehead_x",
+    "forehead_y",
+    "forehead_z"
+  ],
+  "important_note": "The confusion matrix and per-class metrics here come from the final saved model evaluated on the complete 1,322-sample dataset. Because that final model was trained on the complete dataset, these are descriptive/training-set results, not held-out generalization results. The defensible held-out generalization metrics remain 85.96% cross-session accuracy and 84.15% macro F1."
+}
