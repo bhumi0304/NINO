@@ -10,7 +10,7 @@ aiofiles==24.1.0
 
 # Computer vision / ML
 numpy==1.26.4
-mediapipe==0.10.35
+mediapipe==0.10.21
 opencv-python-headless==4.10.0.84
 scikit-learn==1.6.1
 joblib==1.4.2
